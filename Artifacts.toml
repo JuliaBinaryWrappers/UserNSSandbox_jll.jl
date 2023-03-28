@@ -1,103 +1,103 @@
 [[UserNSSandbox]]
 arch = "aarch64"
-git-tree-sha1 = "1310c3dbd87e28f72121604673273b13542a94ee"
+git-tree-sha1 = "384f0bf354c12c49f614f30a3295a25ef16e139d"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "58a9ef007d3d71b4ac2703d15451ec5cde25d80e77de0e52b83c359d7c0e49da"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.aarch64-linux-gnu.tar.gz"
+    sha256 = "8a052878da0339a99e0e5bb9908c49b3b7efafb1cadba5b2621064d933e3a625"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.aarch64-linux-gnu.tar.gz"
 [[UserNSSandbox]]
 arch = "aarch64"
-git-tree-sha1 = "c2fb655f510727dc6428a0535e60c4dc5b110b67"
+git-tree-sha1 = "649addf45240c08889b4cd837a5caa1f4e2b3f29"
 libc = "musl"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "82b6dcac3ed1d63f4a44979a0d3973f7f14bcdea27e486a1e7f3933e05018493"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.aarch64-linux-musl.tar.gz"
+    sha256 = "1327eda5f6ca474d70193aaa8bcba19d2642dc3004c2ba67650fac703614f98a"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.aarch64-linux-musl.tar.gz"
 [[UserNSSandbox]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "d7da0159d2045e6481ca687022fb0ad40264a704"
+git-tree-sha1 = "e917bcf3b285a9a725e513e73ab24332d7e387f5"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "7738b2e6ef3967684415c754adf67b96d09c6d934086534a38128a0509b56f99"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "116ca21a5e8e862826578aa5b44d7f96bd3944e3ebf40afc54107b75860086be"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.armv6l-linux-gnueabihf.tar.gz"
 [[UserNSSandbox]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "14097a101b7d18211964f631e6460846d0073ffd"
+git-tree-sha1 = "25d1492e2fd5ef31fc7346cc92df30c38caa296d"
 libc = "musl"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "9e5a8976e40b61b607ffd697a128f93a7792ce3e1e4a7ae015291298706cc2fe"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "623821b1f0334bf06a8cfc98a15614f55ec6849be87105e7c2dcf9fa6d4a9aa1"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.armv6l-linux-musleabihf.tar.gz"
 [[UserNSSandbox]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0ad987a90c7bdf3064722cae7f28446ac953698f"
+git-tree-sha1 = "44e612c8057f4446651d6a196d42048a7ceecf93"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "adf11d67bb6f941b176c8fc4116e42ddeefb4b9fd70ed385bd849bb19064f1c9"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "dcd3022c6d6fa2ec6f532e66e140bb25d25ec5b41d5895496f2a26ba4381b9b0"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.armv7l-linux-gnueabihf.tar.gz"
 [[UserNSSandbox]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0450f317916ca96dc785ee8881ab78d118daedb6"
+git-tree-sha1 = "c28c34aad95ce40681cc0583abc178be5315e157"
 libc = "musl"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "57516e86c2ed729fb19fb49d39bb7a9a6a31cd76d1f1af0e1411a64b0e0d842c"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "0832471298738ea89022248e89d46bde25ea4c65a57483551bd504f19e64ea69"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.armv7l-linux-musleabihf.tar.gz"
 [[UserNSSandbox]]
 arch = "i686"
-git-tree-sha1 = "11de5330980355935b32a73af44248baf286eb9b"
+git-tree-sha1 = "5ae22cb528d485478b8dd5c0922bf73225ccf77e"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "d28bb9fb31618b2066280ea29872a50f26de81d5259247284d0caf83af347ba7"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.i686-linux-gnu.tar.gz"
+    sha256 = "fc88a8f2f8e3e9d7b78b26a6acd0deff71f11f72121ef420aa0693c1d0951a59"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.i686-linux-gnu.tar.gz"
 [[UserNSSandbox]]
 arch = "i686"
-git-tree-sha1 = "da28b0f945517a94f0cb28fb0c154b4b3a75a73e"
+git-tree-sha1 = "6e5019ec2060a1c08eeca4a9836394041f67292b"
 libc = "musl"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "28d5786898c593a9bb63b124293d27354582c6255955fb3eea21e372da22272c"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.i686-linux-musl.tar.gz"
+    sha256 = "b4744a54bad7c56bafddf7a4018d4187d14b08f905b61d2191928096af97aec2"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.i686-linux-musl.tar.gz"
 [[UserNSSandbox]]
 arch = "powerpc64le"
-git-tree-sha1 = "d1eb3951c768934370c1712efb42e7679a1336e1"
+git-tree-sha1 = "36932a92eef9b61804d672ce8330a298ca1bf71d"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "aa44ddce7c0760655f8358d8096a49277c1d5a01cfde70bdbe370c01ed8c37b1"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3d449b1a40b2760475a957492deab3dd7b6d06624cfa85622f9e4292cae72551"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.powerpc64le-linux-gnu.tar.gz"
 [[UserNSSandbox]]
 arch = "x86_64"
-git-tree-sha1 = "2abf9d89ce900455e83a76a24be5fff784b1c02e"
+git-tree-sha1 = "f5d5a1cac0d425b44a135087db4fee5410e1d1c1"
 libc = "glibc"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "69e4a72caf160930e512d8bd5208bb5f4162746109d269b098c36d12ee9afc4e"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.x86_64-linux-gnu.tar.gz"
+    sha256 = "3452790f202664cca70230a188dd25bbdc1e4efa56e56ce4143616edf95b17f9"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.x86_64-linux-gnu.tar.gz"
 [[UserNSSandbox]]
 arch = "x86_64"
-git-tree-sha1 = "a2c3c1e4bd0671f015385f9beb92617fbe0b2ac9"
+git-tree-sha1 = "e2d3e434e8658502fa81869e007f10b776b85716"
 libc = "musl"
 os = "linux"
 
     [[UserNSSandbox.download]]
-    sha256 = "688cf3fd56153b1b75dfd7430f115cfc8e4c86c29bccbe5fc56c5ccc14265f8a"
-    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.27+0/UserNSSandbox.v2023.3.27.x86_64-linux-musl.tar.gz"
+    sha256 = "48fc550b3f20debedf226ec33442250cff4f65edba1d5b2403dc9dc8ec89c0d2"
+    url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2023.3.28+0/UserNSSandbox.v2023.3.28.x86_64-linux-musl.tar.gz"

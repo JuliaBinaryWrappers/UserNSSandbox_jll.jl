@@ -1,6 +1,6 @@
 name = "UserNSSandbox_jll"
 uuid = "b88861f7-1d72-59dd-91e7-a8cc876a4984"
-version = "2023.3.27+0"
+version = "2023.3.28+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"

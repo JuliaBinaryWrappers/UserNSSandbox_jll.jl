@@ -8,12 +8,12 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
         overlay_probe,
-        "bin/userns_overlay_probe",
+        "bin/overlay_probe",
     )
 
     JLLWrappers.@init_executable_product(
         sandbox,
-        "bin/userns_sandbox",
+        "bin/sandbox",
     )
 
     JLLWrappers.@generate_init_footer()
