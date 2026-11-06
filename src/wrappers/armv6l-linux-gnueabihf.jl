@@ -2,18 +2,18 @@
 export overlay_probe, sandbox
 
 JLLWrappers.@generate_wrapper_header("UserNSSandbox")
-JLLWrappers.@declare_executable_product(overlay_probe)
 JLLWrappers.@declare_executable_product(sandbox)
+JLLWrappers.@declare_executable_product(overlay_probe)
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
-        overlay_probe,
-        "bin/overlay_probe",
+        sandbox,
+        "bin/sandbox",
     )
 
     JLLWrappers.@init_executable_product(
-        sandbox,
-        "bin/sandbox",
+        overlay_probe,
+        "bin/overlay_probe",
     )
 
     JLLWrappers.@generate_init_footer()
