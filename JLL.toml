@@ -1,0 +1,570 @@
+version = "2026.11.7"
+format_version = "1.0"
+name = "UserNSSandbox"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "UserNSSandbox"
+platform = "x86_64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:e7b2d1683e7aa928822ea9c02e89d17e5b4ab29c"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:2ae71da03e707dce07893655224b62530369a762b486a22bc3d50466c257885c"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.x86_64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:957e1b6424e9f4e96e8e03c8b09f4477c81d2981"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:4d9078e4681cd2a2e69879f9784ebb1296716223f4b8915918285215dd839f73"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:c06904c01f6d3164cf6403ddf1a8baddf0492bab"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9f6c0d827d3e93b8616115e58baec4707a1722a272e50189b8f90f5366dff6aa"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.x86_64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "i686-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:9ff9455a04b533dc5ba6e7418d41f85ab10eacd0"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c7f55334130985a687adb83cc45e7cffd0ec339613792ddd43636ae9bea2811a"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.i686-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:5e8d06e0400d40f736636aa9d45af849e3b33afd"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:17fc97301e447dead051e8b8374f8c9e577995d372632e72dcc095549a982fc4"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a91fc03a2b3aae598bc5b772c9cbf63abe04720c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:82a22f843c5d1b09f0fdf039fe13f42aa3d97c8c21a9f5fd00f78bf70c53919c"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.i686-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:1273b7b0d345d66f66faafcd731cd907c3618830"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:e1ee2ba93a9cce2c9f0bc798773cae6e974204393045ab7116912d7552aa5ac8"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.aarch64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fda273d030ea0e5efc264fed073b21e4970f270d"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2928a740ea54cd9979e05f34cec264972ae7c72b069f3425b78a998c2e9688b1"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a60f9c0a4acbedec8bcff1fb25fb855bb40a288c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:e9157fc8fab6a5d3d0b9c23d90193f16f91f86560bfc693ea2e8b8f98c235e59"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.aarch64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "armv6l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:3303217125b21065a1a27769a303d14d44dcb439"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:1adb920234583e6fb89659487df560112c4281f1ec762586e98967bf4a6467ba"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d38f0a171897f56ef612d295f34ce94a9265ce91"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:8cdab0946f4064e6098568e56bd065dc1bf5cfd366210a0e66906b9ccc71183a"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:30d9009f3fe5f59ef86af18d4a3b0803a659bc72"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5c949fd6aab9648defbc0046b55d0c6a6da595c0eeffe23d3424058df49ebb6e"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "armv7l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:ce293b2ca847ed6244fd8014092122b54ed247a2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:8fc026f4ffa5d8d7a7892c6c13d0f6dcabbc70edbad181879b1dce197e5f6b6f"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:ebd5150c4af96e49a4ca9906b90c7f9f8c8eba1f"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:9115459bf35fac69ae78af658b5b52abd85718a2dc84fa82b5e61201be52641d"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2d136fc6c30ea002384a9dac15c8cd328a410193"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:77e03447229cd7120733af7c111b7592d0d3679a0d2a6602d43894f517e1f8eb"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "powerpc64le-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:92a1c63d9d038bd6e212454a260a5386e8aacb55"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:468e562b1bdcb1b84f423883a4b8e2e9b8ef4b3278a81c89970c138aa9e4f6b6"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1f3107d99c8d18273123cbb8dbe58e602eaebe89"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b045e30e92c652005e75a4db2b6fd28977d6b2f677844c48dfd076b315a2acc0"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:904ec6fc5cbd271213816ee626a8ce32be66e4ca"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5fe66d7a8d9fa288d8eef6139099a2e4cefd741200b3e075054d02d85a263e98"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "riscv64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:b8f67fa7097f743ae05c85a082b90ba4fd46f4e6"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:18767cb78c24112d65c2811d1569aa49c7a38adcabfe1f938c9fe1ae712e0d5e"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.riscv64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:98adaf963533e578b4179613f1fac2c43d7aa989"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:5fc6bda27c3f90e4ff6f0b238aa81ce15aa4df24ff6d4ffe58375e920fffa2c2"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.riscv64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:4bce0748a4eace9bc4a43c896cb3ed7561c530a8"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:40d85779a9bf34a4bb6da4fe8359226e6bc6c6b4aa6b76e077ddbfa3a2996982"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.riscv64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "x86_64-linux-musl"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:2c3f09d2a52c39e4cd523d23b1a5492af5de10b6"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:6bff6b8603b4d8daf53f93b2d57743705aefed47b20f885ab8c27f17fa3ee2b0"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.x86_64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1102f1e0ae7e3dd8fa6d118752f27a5987e6d287"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a34a2c1a921b244c5239c51fd4704bc7dd9bfd691a480e1f720779d3f8f2aea2"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.x86_64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:6bb311e36b73553ea9a8aeaec18158510793ed39"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6f72d4d5952baa96d910abf3945365c9cb7b16d21883f0fe9de3e5eab907f974"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.x86_64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "i686-linux-musl"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:5557a6d77ec2764ea19d4dbde49beeaa4b2cee6a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:ab4f176de87f39333bcb48d127a69603ca55f6553947f2f3b2b2d6b9283d0575"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.i686-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:16f1d3c193eb0e09a5bb0dd9f97e14ad38e66164"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:f04ac07c76193bcf70d95fe828df4a787826562a576cb6903babb7ab82ffab9f"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.i686-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:46e7b2995b0f536e4f526962d646813d148c6b6b"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9f7be191f40634cd64b04dfbf2468261751a1a18bc9f37914e60a4fc60061889"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.i686-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "aarch64-linux-musl"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:5505c041f92c708611d044dce435202da6c0fa53"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c041d322a095bb84a6ef096a693e090441e72236cfba2583553452e54ec16db3"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.aarch64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:9f27aad7f3b8bf4980f65966fc19bd6e26be06f4"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:d325bab8e5cd6865b29eef8022a6ac222b037c11dbdbf4e891baa93c9acc1769"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.aarch64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:7f8cdecf61cfc762f7145f80cfaa5f43d10d96cc"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:735cdedb60b8c688f34cc8fe82a1c612fefb5271aebff266baac080ede308db3"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.aarch64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "armv6l-linux-musleabihf"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:6376cc7676b252feafbb71de656fc821495e0830"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:db6ec791856ef6198d7f0e77414bf2a216eb435d673e87ae552edfd286c72eb5"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:f0c4217349987e6f6206abefae4fbbf4f56f376f"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:164847ec6eb05918f79d3fe27d5acadcb9dde1f977a759a740486b4f5752e7d5"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.armv6l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:c9c88f120d24549b02a8a64e20922009e90d8fc8"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:fe0ce6298bf253bae6b4585f6a206c67463fc9659bf06ca6e2ad573851658a66"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "UserNSSandbox"
+platform = "armv7l-linux-musleabihf"
+deps = []
+lazy = "false"
+src_version = "2026.11.26"
+
+    [builds.artifact]
+    treehash = "sha1:ea63b2fe5843223ba0a6cb7a5d849bde31953563"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c8a1996e5afec1103047552482554209a56f54299a8107d25ff54bb5e6b865fd"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox.v2026.11.7.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.md"
+    license_type = "MIT"
+    license_text = """The Sandbox.jl package is licensed under the MIT \"Expat\" License:\n\n> Copyright (c) 2021: Elliot Saba, Julia Computing, and contributors.\n> \n> Permission is hereby granted, free of charge, to any person obtaining a copy\n> of this software and associated documentation files (the \"Software\"), to deal\n> in the Software without restriction, including without limitation the rights\n> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n> copies of the Software, and to permit persons to whom the Software is\n> furnished to do so, subject to the following conditions:\n> \n> The above copyright notice and this permission notice shall be included in all\n> copies or substantial portions of the Software.\n> \n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n> SOFTWARE.\n> \n"""
+
+    [[builds.products]]
+    path = "bin/sandbox"
+    type = "executable"
+    name = "sandbox"
+    [[builds.products]]
+    path = "bin/overlay_probe"
+    type = "executable"
+    name = "overlay_probe"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:38bf9f1324ea0a528ff35c176b5d112680eb1b49"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:432dca05229d5ea139f44236c8a55c2adb3e4128e732d11444f080165ce70b1d"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-extract_log.v2026.11.7.armv7l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:305d8a92541de2f39a437baeaf4505952e9aa29f"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6ad250112ed16a57ffc422104cda6ce8f25eb160f7846d1a41b574e056e7f2db"
+        url = "https://github.com/JuliaBinaryWrappers/UserNSSandbox_jll.jl/releases/download/UserNSSandbox-v2026.11.7/UserNSSandbox-build_log.v2026.11.7.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:11e7828e792e767a93842d0e47bba372a4718ad9"
+    url = "https://github.com/JuliaContainerization/Sandbox.jl.git"
+
+    [builds.callback_defs]
